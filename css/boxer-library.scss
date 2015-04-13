@@ -137,24 +137,75 @@ input, select {
   background: #3498db;
 
 }
+.boxer-button-ex-sm{
+  @include button(85px);
+  background: #3498db;
+  padding: 1px 5px;
+}
 .boxer-button-sm{
   @include button(85px);
   background: #3498db;
+  padding: 5px 10px;
 }
 .boxer-button-medium{
   @include button(160px);
   background: #3498db;
+  padding: 8px 10px;
+
 }
 .boxer-button-large{
   @include button(195px);
   background: #3498db;
+  padding: 10px 16px;
 }
 .boxer-button-ex-large{
   @include button(285px);
   background: #3498db;
+  padding: 12px 18px;
 }
 
+//Ghost Buttons
 
+.boxer-button-ghost-ex-sm{
+  @include button(85px);
+  background: none;
+  border: 2px solid #3498db;
+  font-size: 0.6em;
+  padding: 1px 5px;
+}
+.boxer-button-ghost-sm{
+  @include button(85px);
+  background: none;
+  border: 2px solid #3498db;
+  padding: 5px 10px;
+}
+.boxer-button-ghost-default{
+  @include button(115px);
+  background: none;
+  border: 2px solid #3498db;
+}
+.boxer-button-ghost-medium {
+   @include button(160px);
+   background: none;
+   border: 2px solid #3498db;
+   padding: 8px 10px;
+}
+.boxer-button-ghost-large{
+    @include button(195px);
+    background: none;
+    border: 2px solid #3498db;
+    padding: 10px 16px;
+}
+.boxer-button-ghost-ex-large{
+  @include button(285px);
+  background: none;
+  border: 2px solid #3498db;
+  padding: 12px 18px;
+}
+
+//Pill Buttons
+//Circle Buttons
+//Drop Down Buttons
 
 
 
